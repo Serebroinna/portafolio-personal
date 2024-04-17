@@ -1,0 +1,396 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+    background-color: #262526;
+}
+h1{
+    font-size: 45px;
+}
+.container{
+    margin: 0 auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*---------NAVEGACION---------*/
+.nav__container{
+    background-color: #262526;
+    color: #F2E205;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.logo__nav{
+    display: flex;
+    gap: 10px;  
+}
+.logo__nav p{
+    font-size: 15px;
+}
+.lista__nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/*---------PRESENTACION---------*/
+.presentacion__container{
+    background-color: #F2EDE4;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding: 5% 0;
+    
+}
+.texto__presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 10%;
+    width: 60%;
+    padding: 20px;
+    color: #0F0140;
+}
+.redes__presentacion{
+    display: flex;
+    height: 50px;
+    gap: 50px;
+    align-items: center;
+}
+.redes__presentacion i{
+    font-size: 25px;
+}
+.foto__presentacion{
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    
+}
+.foto__presentacion img{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+}
+
+/*---------SOBRE MI---------*/
+.sobre__mi__container{
+    color: #F2EDE4;
+    padding: 5% 0;
+}
+
+.sobremi__descripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    padding: 20px;  
+    margin-left: 10%;
+}
+
+/*---------SKILLS & HOBBIES---------*/
+.skills__container{
+    background-color: #F2EDE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    padding: 5% 0;
+    color:#0F0140;
+}
+
+.lista__skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.item__skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#262526;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    gap: 5px;
+    justify-content: center;
+    border-radius: 10%;
+    color: #F2EDE4
+}
+
+.item__skill i{
+    color: #F2E205;
+}
+
+/*---------FORMACION---------*/
+.formacion__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5% 0;
+    color: #F2EDE4;
+    align-items: center;
+}
+.lista__formacion{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item__formacion{
+    background-color: #F2EDE4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #0F0140;
+
+}
+.item__formacion img{
+    width: 50%;
+}
+
+.item__formacion h2{
+    font-size: 30px;
+}
+
+.item__formacion p{
+    font-size: 15px;
+}
+
+/*---------EXPERIENCIA PROFESIONAL---------*/
+.experiencia__container{
+    background-color: #F2EDE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 5% 0;
+    color: #0F0140;
+}
+
+.item__experiencia{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    color: #F2EDE4;
+}
+
+.item__experiencia__reverse{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    flex-direction: row-reverse;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+}
+
+.descripcion__experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botones__experiencia{
+    display: flex;
+    gap:20px;
+}
+
+.btn__experiencia{
+    background-color:#F2E205;
+    color: #0F0140;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn__experiencia:hover{
+    background-color: transparent;
+    border: 1px solid #F2E205;
+    color: #F2E205;
+}
+
+/*---------CONTACTO---------*/
+.form__container{
+    background-color:#262526;
+    color: #F2EDE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 5% 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+#botonEnviarForm{
+    padding: 5px;
+    background-color: #F2E205;
+    color: #0F0140;
+    border-radius: 5px;
+}
+
+#botonEnviarForm:hover{
+    background-color: transparent;
+    border: 1px solid #F2E205;
+    color: #F2E205;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+    color: #F2E205;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+
+/*---------RESPONSIVE---------*/
+/*---------TABLET---------*/
+@media (max-width: 834px){
+
+    .nav__container{
+        padding: 10px 0;
+    }
+
+    .logo__nav{
+        margin-left: -90px;
+    }
+    .lista__nav li:nth-child(1),
+    .lista__nav li:nth-child(2),
+    .lista__nav li:nth-child(3),
+    .lista__nav li:nth-child(4),
+    .lista__nav li:nth-child(5){
+        display: none;
+    }
+    
+    .presentacion__container{
+        width: 100%;
+    }
+
+    .texto__presentacion{
+        margin: 0;
+    }
+
+    .foto__presentacion{
+        width: 50%;
+        height: 50%;
+        justify-content: center;  
+    }
+
+    .foto__presentacion img{
+        width: 100%;
+    }
+
+    .item__experiencia{
+        flex-direction: column;
+        align-items:start;
+    }
+
+    .descripcion__experiencia{
+        gap: 10px;
+    }
+
+    .item__experiencia img{
+        width: 100%;
+    }
+    
+    .item__experiencia__reverse{
+        flex-direction: column;
+        align-items:start;
+    }
+
+    .item__experiencia__reverse img{
+        width: 100%;
+    }
+
+
+}
+
+/*---------MOVILE---------*/
+@media (max-width: 420px){
+    .logo__nav{
+        margin-left: 0px;
+    }
+
+    .presentacion__container{
+        flex-direction: column-reverse
+    }
+
+    .foto__presentacion{
+        width: 90%;
+    }
+    .texto__presentacion{
+        width: 90%;
+    }
+
+    .redes__presentacion{
+        justify-content: center;
+    }
+
+    .sobre__mi__container{
+        width: 100%;
+    }
+
+    .sobremi__descripcion{
+        margin: 0;
+    }
+
+    .lista__skills{
+        gap: 30px;
+    }
+
+    .formacion__container{
+        text-align: center;
+
+    }
+    .item__formacion{
+        height: 230px;
+    }
+
+    .item__formacion img{
+        height: 150px;
+
+    }
+
+    .item__experiencia{
+        width: 80%;
+    }
+
+    .item__experiencia__reverse{
+        width: 80%;
+    }
+
+    .formulario{
+        width: 60%;
+    }
+}
