@@ -39,6 +39,9 @@ p{
     gap: 10px;
     align-items: center;
 }
+.item__nav:hover {
+    color: #F2EDE4;
+}
 
 /*---------PRESENTACION---------*/
 .presentacion__container{
@@ -46,7 +49,7 @@ p{
     justify-content: center;
     display: flex;
     gap: 30px;
-    padding: 5% 0;
+    padding: 10% 0 5% 0;
     
 }
 .texto__presentacion{
@@ -58,6 +61,11 @@ p{
     width: 60%;
     padding: 20px;
     color: #0F0140;
+    
+}
+
+.texto__presentacion p{
+    line-height: 2rem;
 }
 .redes__presentacion{
     display: flex;
@@ -90,6 +98,7 @@ p{
 .sobremi__descripcion{
     display: flex;
     flex-direction: column;
+    line-height: 2rem;
     gap: 30px;
     width: 80%;
     padding: 20px;  
@@ -178,6 +187,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 30px;
     padding: 5% 0;
     color: #0F0140;
@@ -343,12 +353,18 @@ footer p{
     }
 
     .presentacion__container{
-        flex-direction: column-reverse
+        flex-direction: column-reverse;
     }
 
     .foto__presentacion{
         width: 90%;
     }
+
+    .foto__presentacion img {
+        width: 75%;
+        margin-top: 1.8rem;
+    }
+
     .texto__presentacion{
         width: 90%;
     }
@@ -379,7 +395,10 @@ footer p{
 
     .item__formacion img{
         height: 150px;
+    }
 
+    .experiencia__container {
+        justify-content: center;
     }
 
     .item__experiencia{
